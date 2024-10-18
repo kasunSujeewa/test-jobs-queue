@@ -31,6 +31,6 @@ class testjob1 implements ShouldQueue
      */
     public function handle()
     {
-        Log::info('test 1');
+        Log::error('test 1');
     }
 }
